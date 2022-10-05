@@ -1,0 +1,40 @@
+[
+    {
+        "codigoDeIdentificacao": "4dc1a4b4",
+        "codigoAutuacao": 5185,
+        "observacao": "Veículo estacionado em local proibido.",
+        "dataHora": {
+            "data": "24/06/2011",
+            "hora": "18:15"
+        },
+        "endereco": {
+            "municipio": "Belo Horizonte",
+            "logradouro": "Avenida Amazonas",
+            "numeracaoProxima": 4445
+        },
+        "dadosVeiculo": {
+            "marca": "Lamborghini",
+            "modelo": "Aventador SVJ",
+            "placa": "BRA2E22"
+        }
+    },
+    {
+        "codigoDeIdentificacao": "4243dcc757",
+        "codigoAutuacao": 8551,
+        "observacao": "Veículo trafegava com o porta-malas aberto em via pública",
+        "dataHora": {
+            "data": "18/05/2022",
+            "hora": "20:45"
+        },
+        "endereco": {
+            "municipio": "Belo Horizonte",
+            "logradouro": "Avenida Silva Lobo",
+            "numeracaoProxima": 1678
+        },
+        "dadosVeiculo": {
+            "marca": "Lamborghini",
+            "modelo": "Aventador SVJ",
+            "placa": "BRA2E22"
+        }
+    }
+]

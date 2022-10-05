@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Cadastro Google</title>
+    </head>
+    <body>
+        <main>
+            <div class="box">
+                <div class="logo">
+                    <img src="./images/logo.svg">
+                </div>
+                <div class="cadastro">
+                    <div class="form_cadastro">
+                        <h2>Crie sua conta do Google</h2>
+                        <div class="fomulario">
+                            <form class="form">
+                                <div class="name">
+                                    <input type="text" id="nome" value="" placeholder="Nome">
+                                    <input type="text" id="sobrenome" value="" placeholder="Sobrenome">
+                                </div>
+                                <div class="username">
+                                    <input type="email" id="email" value="" placeholder="Email">
+                                    <span class="frase">Você pode usar letras, números e pontos finais</span>
+                                </div>
+                                <div class="senha">
+                                    <input type="password" id="senha" value="" placeholder="Senha">
+                                    <input type="password" id="confirmar" value="" placeholder="Confirmar">
+                                    <span class="frase">Use oito ou mais caracteres com uma cobinação de letras, números e símbolos</span>
+                                </div>
+                                <div class="botao">
+                                    <a href="">Faça login em vez disso</a>
+                                    <input type="button" value="Próxima" onclick="cadastra()">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="./images/image1.svg">
+                        <p>Uma única conta. Todo o Google trabalhando para você.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="./scripts.js"></script>
+    </body>
+</html>

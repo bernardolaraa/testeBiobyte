@@ -1,0 +1,1 @@
+SELECT cpf FROM FUNCIONARIOS JOIN ALUGUEL ON cpf_funcionario = cpf WHERE cpf_supervisor IS NULL
